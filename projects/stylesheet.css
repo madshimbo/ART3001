@@ -1,0 +1,19 @@
+
+body {
+    background-color: #c4af9a;
+    font-size: 2em;
+    font-family: hero new thin;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: freightbig pro light;
+    color: #512D38;
+    margin-bottom: .3em;
+    text-decoration: underline;
+  }
+
+p {
+    text-align: right;
+}
