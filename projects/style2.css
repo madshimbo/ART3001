@@ -1,0 +1,427 @@
+
+body {
+    margin: 2px;
+    padding: 0;
+    width: 100vw;
+    height: 100vw;
+    overflow-x: hidden;
+    font-family:  'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+
+.HPgrid {
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    background: white;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+container {
+    grid-column: 1;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    background: white;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header {
+    padding-left:0;
+    padding-right: 0;
+    height: 100%;
+    background: #e5e5e5;
+}
+.footer {
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: #495A67;
+}
+.footlogo {
+    grid-column: 1;
+    grid-row: 1;
+    background:url("assets/Screen Shot 2019-04-23 at 9.45.49 PM copy.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footubwa {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footabout {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.footblog {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.footsponsors {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.footresources {
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.footjoin {
+    grid-column: 7;
+    grid-row: 1;
+}
+/* .navigation div{
+    width: 100%;
+    height: 100%;
+} */
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+}
+.logo {
+    grid-column: 1;
+    grid-row: 1/2;
+    background:url("assets/Screen Shot 2019-04-23 at 9.45.49 PM copy.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headsep {
+    grid-column: 2;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+}
+
+.headtop {
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1;
+}
+
+.headtext {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.socials {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-gap:20px;
+}
+
+.instagram {
+    grid-column: 1;
+    grid-row: 1;
+    background:url("assets/Ellipse\ 1.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook {
+    grid-column: 2;
+    grid-row: 1;
+    background:url("assets/Ellipse\ 1.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    grid-column: 3;
+    grid-row: 1;
+    background:url("assets/Ellipse\ 1.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    grid-column: 3;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 1.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headbottom {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: (5, 1fr);
+    grid-template-rows: 1;
+}
+
+.about {
+    grid-column: 1;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 2.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    grid-column: 2;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 2.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors {
+    grid-column: 3;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 2.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resources {
+    grid-column: 4;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 2.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join {
+    grid-column: 5;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 2.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 15px;
+}
+
+.photo1 {
+    grid-column: 1;
+    grid-row: 1;
+    background:url("assets/UBWA1.jpeg") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo2 {
+    grid-column: 2;
+    grid-row: 1;
+    background:url("assets/UBWA2.jpeg") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo3 {
+    grid-column: 3;
+    grid-row: 1;
+    background:url("assets/UBWA3.jpeg") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo4 {
+    grid-column: 4;
+    grid-row: 1;
+    background:url("assets/UBWA4.jpeg") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo5 {
+    grid-column: 5;
+    grid-row: 1;
+    background:url("assets/UBWA5.jpeg") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-column: 1;
+    grid-row: 3/6;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: (4, 1fr);
+    grid-gap: 15px;
+}
+.upcoming {
+    grid-column: 1;
+    grid-row: 1;
+}
+.event1{
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1;
+}
+.event1text {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.event1button {
+    grid-column: 2;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 16.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event2{
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1;
+}
+.event2text {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.event2button {
+    grid-column: 2;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 16.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event3{
+    grid-column: 1;
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1;
+}
+.event3text {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.event3button {
+    grid-column: 2;
+    grid-row: 1;
+    background:url("assets/Rectangle\ 16.png") no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    font-family: braisetto;
+    
+}
+
+p {
+    color: white;
+}
+h3 {
+    text-align: left;
+    color:black;
+}
+h2 {
+    text-align:left;
+}
+h4{
+    font-size:smaller;
+    color:black;
+}
