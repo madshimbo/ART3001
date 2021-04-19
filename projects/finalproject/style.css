@@ -1,0 +1,37 @@
+body {
+  background-color: darkslategray;
+  text-align: center;
+}
+
+h1 {
+  color: oldlace;
+  margin-left: 40px;
+}
+
+p {
+  color: navajowhite;
+}
+
+a:link {
+  color:gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(225, 0, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
