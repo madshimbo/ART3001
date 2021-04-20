@@ -16,8 +16,15 @@
 
     <p><a href="../assets/yes.html">Yes</a> or <a href="../assets/no.html">No</a></p>
 
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
     
-        <img alt="cookie" src="../photos/cookie.png"
-        width=150" height="">
+      <input type="image" src="../photos/cookie.png"" onclick="play()" width="150">
+      <audio id="audio" src="../photos/bite.mp3"></audio>
+    
 </body>
 </html>

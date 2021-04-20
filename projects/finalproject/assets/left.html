@@ -14,7 +14,17 @@
     
     <p>Up ahead, you see a frog sitting on a mushroom. <a href="../assets/walk.html">Walk</a> or <a href="../assets/run.html">run</a> up to the frog.</p>
 
-        <img alt="frog" src="../photos/froggy.png"
-        width=150" height="">
+
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+  
+      <input type="image" src="../photos/froggy.png"" onclick="play()" width="150">
+      <audio id="audio" src="../photos/croak.wav"></audio>
+
+      
 </body>
 </html>
